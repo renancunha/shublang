@@ -273,7 +273,7 @@ def round(iterable, pred):
 
 @Pipe
 def join(iterable, separator=", "):
-    return separator.join(builtins.map(builtins.str, iterable))
+    return (separator.join(builtins.map(builtins.str, x)) for x in iterable)
 
 
 @Pipe

@@ -1,0 +1,60 @@
+{
+    "type": "object",
+    "properties": {
+        "url": {
+            "type": "string",
+            "src": "url"
+        },
+        "platform": {
+            "type": "string",
+            "src": "additionalProperty[?name=='Video Game Platform'].value | [0]"
+        },
+        "name": {
+            "type": "string",
+            "src": "name"
+        },
+        "brand": {
+            "type": "string",
+            "src": "brand"
+        },
+        "sku": {
+            "type": "string",
+            "src": "sku"
+        },
+        "category": {
+            "type": "string",
+            "src": "breadcrumbs[*].name",
+            "transformations": "join(' > ') | sanitize"
+        },
+        "price_now": {
+            "type": "float",
+            "src": "offers[0].price"            
+        },
+        "price_was": {
+            "type": "float",
+            "src": "offers[0].regularPrice"
+        },
+        "rating": {
+            "type": "float",
+            "src": "aggregateRating.ratingValue"
+        },
+        "number_of_reviews": {
+            "type": "integer",
+            "src": "aggregateRating.reviewCount"
+        },
+        "in_stock": {
+            "type": "integer",
+            "src": "offers[0].availability == 'InStock'"
+        },
+        "condition": {
+            "type": "string",
+            "src": "offers[0].itemCondition.type == 'NewCondition'",
+            "transformations": "map(lambda x: 'New' if x else None)"
+        },
+        "price_pct_discount": {
+            "type": "float",
+            "src": "offers[0]",
+            "transformations": "map(lambda x: 1 - (builtins.float(x['price']) / builtins.float(x['regularPrice'])))"
+        }
+    }
+}

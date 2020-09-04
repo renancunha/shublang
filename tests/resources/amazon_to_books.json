@@ -1,0 +1,48 @@
+{
+  "type": "object",
+  "description": "This schema contains the rules to convert data from product schema to a custom book schema.",
+  "properties": {
+    "title": {
+      "type": "string",
+      "src": "name"
+    },
+    "isbn_13": {
+      "type": "string",
+      "src": "additionalProperty[?name=='ISBN-13'].value | [0]"
+    },
+    "edition": {
+      "type": "string",
+      "src": "additionalProperty[?name=='Publisher'].value | [0]",
+      "transformations": "re_search('; (.*? Edition)') | first"
+    },
+    "publisher": {
+      "type": "string",
+      "src": "additionalProperty[?name=='Publisher'].value | [0]",
+      "transformations": "re_search('(.*);') | first"
+    },
+    "item_weight": {
+      "type": "float",
+      "src": "weight.value"
+    },
+    "low_new_price": {
+      "type": "float",
+      "src": "sort_by(offers[?itemCondition.type=='NewCondition'], &to_number(price))[].price | [0]"
+    },
+    "low_used_price": {
+      "type": "float",
+      "src": "sort_by(offers[?itemCondition.type=='UsedCondition'], &to_number(price))[].price | [0]"
+    },
+    "low_prime_price": {
+      "type": "string",
+      "src": "'what shoud we put here?'"
+    },
+    "author": {
+      "type": "string",
+      "src": "'what shoud we put here?'"
+    },
+    "best_sellers_rank": {
+      "type": "string",
+      "src": "'what shoud we put here?'"
+    }
+  }
+}

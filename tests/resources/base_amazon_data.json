@@ -1,0 +1,175 @@
+[
+  {
+    "depth": {
+      "unitText": "inches",
+      "value": 10.3
+    },
+    "width": {
+      "value": 8.4,
+      "unitText": "inches"
+    },
+    "height": {
+      "value": 1.2,
+      "unitText": "inches"
+    },
+    "offers": [
+      {
+        "ownership": {
+          "type": "Rented",
+          "duration": "Due Date: Dec 16, 2020"
+        },
+        "shippingInfo": {
+          "currency": "USD",
+          "price": "0"
+        },
+        "seller": {
+          "identifier": "A2L77EE7U53NWQ",
+          "url": "https://www.amazon.com/gp/help/seller/at-a-glance.html?ie=UTF8&seller=A2L77EE7U53NWQ&isAmazonFulfilled=1",
+          "name": "Amazon Warehouse"
+        },
+        "availability": "InStock",
+        "price": "13.36",
+        "currency": "USD"
+      },
+      {
+        "itemCondition": {
+          "description": "Buy used",
+          "type": "UsedCondition"
+        },
+        "shippingInfo": {
+          "currency": "USD"
+        },
+        "seller": {
+          "identifier": "A14QE1OZ65WVW2",
+          "url": "https://www.amazon.com/gp/help/seller/at-a-glance.html?ie=UTF8&seller=A14QE1OZ65WVW2&isAmazonFulfilled=1",
+          "name": "CapitalBook"
+        },
+        "price": "99.43",
+        "currency": "USD"
+      },
+      {
+        "itemCondition": {
+          "description": "Buy new",
+          "type": "NewCondition"
+        },
+        "shippingInfo": {
+          "currency": "USD"
+        },
+        "seller": {
+          "identifier": "A229VCB9DB0WLZ",
+          "url": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A229VCB9DB0WLZ&isAmazonFulfilled=1",
+          "name": "Unleash-Inc"
+        },
+        "availability": "Only 12 left in stock - order soon.",
+        "price": "109.87",
+        "currency": "USD"
+      }
+    ],
+    "weight": {
+      "unitText": "pounds",
+      "value": 3.14
+    },
+    "breadcrumbs": [
+      {
+        "name": "Books",
+        "link": "https://www.amazon.com/books-used-books-textbooks/b/ref=dp_bc_aui_C_1/147-1036158-9596824?ie=UTF8&node=283155"
+      },
+      {
+        "name": "Business & Money",
+        "link": "https://www.amazon.com/Business-Money-Investing-Books/b/ref=dp_bc_aui_C_2/147-1036158-9596824?ie=UTF8&node=3"
+      },
+      {
+        "name": "Management & Leadership",
+        "link": "https://www.amazon.com/Management-Leadership-Business-Investing-Books/b/ref=dp_bc_aui_C_3/147-1036158-9596824?ie=UTF8&node=2675"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "relationshipName": "Sponsored products related to this item",
+        "products": [
+          {
+            "name": "Agile and Scrum: Unlock the Power of Agile Project Management, Lean Thinking, the Kanban Process, and Scrum"
+          },
+          {
+            "name": "Agile: What You Need to Know About Agile Project Management, the Kanban Process, Lean Thinking, and Scrum"
+          },
+          {
+            "name": "Agile: An Essential Guide to Agile Project Management, The Kanban Process and Lean Thinking + A Comprehensive Guide to Scrum"
+          },
+          {
+            "name": "Agile Project Management with Scrum: Selected Scrum Practices and Tips in Agile Project Management"
+          },
+          {
+            "name": "FranklinCovey Project Management for The Unofficial Project Manager Paperback"
+          },
+          {
+            "name": "The Project Management Handbook: Simplified Agile, Scrum and DevOps for Beginners"
+          }
+        ]
+      }
+    ],
+    "name": "Project Management: The Managerial Process (Mcgraw-hill Series Operations and Decision Sciences)",
+    "additionalProperty": [
+      {
+        "value": "3.14 pounds",
+        "name": "Item Weight"
+      },
+      {
+        "value": "688 pages",
+        "name": "Hardcover"
+      },
+      {
+        "value": "1259666093",
+        "name": "ISBN-10"
+      },
+      {
+        "value": "978-1259666094",
+        "name": "ISBN-13"
+      },
+      {
+        "value": "8.4 x 1.2 x 10.3 inches",
+        "name": "Product Dimensions"
+      },
+      {
+        "value": "McGraw-Hill Education; 7th Edition (February 7, 2017)",
+        "name": "Publisher"
+      },
+      {
+        "value": "English",
+        "name": "Language"
+      },
+      {
+        "name": "Customer Reviews"
+      }
+    ],
+    "sku": "1259666093",
+    "aggregateRating": {
+      "ratingValue": 4.5,
+      "reviewCount": 154,
+      "bestRating": 5
+    },
+    "ratingHistogram": [
+      {
+        "ratingPercentage": "73%",
+        "ratingOption": "5 star"
+      },
+      {
+        "ratingPercentage": "12%",
+        "ratingOption": "4 star"
+      },
+      {
+        "ratingPercentage": "7%",
+        "ratingOption": "3 star"
+      },
+      {
+        "ratingPercentage": "2%",
+        "ratingOption": "2 star"
+      },
+      {
+        "ratingPercentage": "5%",
+        "ratingOption": "1 star"
+      }
+    ],
+    "url": "https://www.amazon.com/Project-Management-Managerial-Mcgraw-hill-Operations/dp/1259666093/ref=sr_1_1?dchild=1&keywords=978-1259666094&qid=1599226635&s=books&sr=1-1"
+  }
+]
