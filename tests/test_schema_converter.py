@@ -18,3 +18,19 @@ def test_convert_walmart_to_melvin():
 
     converter = SchemaConverter(schema)
     assert converter.convert(base_data) == expected_data
+
+
+def test_convert_amazon_to_books():
+
+    # file containing the custom schema
+    with open("./tests/resources/amazon_to_books.json", "r") as f:
+        schema = json.loads(f.read())
+
+    with open("./tests/resources/base_amazon_data.json", "r") as f:
+        base_data = json.loads(f.read())
+
+    with open("./tests/resources/books_amazon_data.json", "r") as f:
+        expected_data = json.loads(f.read())
+
+    converter = SchemaConverter(schema)
+    assert converter.convert(base_data) == expected_data
